@@ -13,6 +13,51 @@ body {
     --color4: hsla(45, 73%, 98%, 1);
     --color5: hsla(224, 40%, 79%, 1); */
     
+    /* CSS HEX */
+--queen-pink: #eac8caff;
+--pink-lace: #f2d5f8ff;
+--pink-lavender: #e6c0e9ff;
+--lilac: #bfabcbff;
+--cool-grey: #8d89a6ff;
+
+/* CSS HSL */
+--queen-pink: hsla(356, 45%, 85%, 1);
+--pink-lace: hsla(290, 71%, 90%, 1);
+--pink-lavender: hsla(296, 48%, 83%, 1);
+--lilac: hsla(278, 24%, 73%, 1);
+--cool-grey: hsla(248, 14%, 59%, 1);
+
+/* SCSS HEX */
+$queen-pink: #eac8caff;
+$pink-lace: #f2d5f8ff;
+$pink-lavender: #e6c0e9ff;
+$lilac: #bfabcbff;
+$cool-grey: #8d89a6ff;
+
+/* SCSS HSL */
+$queen-pink: hsla(356, 45%, 85%, 1);
+$pink-lace: hsla(290, 71%, 90%, 1);
+$pink-lavender: hsla(296, 48%, 83%, 1);
+$lilac: hsla(278, 24%, 73%, 1);
+$cool-grey: hsla(248, 14%, 59%, 1);
+
+/* SCSS RGB */
+$queen-pink: rgba(234, 200, 202, 1);
+$pink-lace: rgba(242, 213, 248, 1);
+$pink-lavender: rgba(230, 192, 233, 1);
+$lilac: rgba(191, 171, 203, 1);
+$cool-grey: rgba(141, 137, 166, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #eac8caff, #f2d5f8ff, #e6c0e9ff, #bfabcbff, #8d89a6ff);
+$gradient-right: linear-gradient(90deg, #eac8caff, #f2d5f8ff, #e6c0e9ff, #bfabcbff, #8d89a6ff);
+$gradient-bottom: linear-gradient(180deg, #eac8caff, #f2d5f8ff, #e6c0e9ff, #bfabcbff, #8d89a6ff);
+$gradient-left: linear-gradient(270deg, #eac8caff, #f2d5f8ff, #e6c0e9ff, #bfabcbff, #8d89a6ff);
+$gradient-top-right: linear-gradient(45deg, #eac8caff, #f2d5f8ff, #e6c0e9ff, #bfabcbff, #8d89a6ff);
+$gradient-bottom-right: linear-gradient(135deg, #eac8caff, #f2d5f8ff, #e6c0e9ff, #bfabcbff, #8d89a6ff);
+$gradient-top-left: linear-gradient(225deg, #eac8caff, #f2d5f8ff, #e6c0e9ff, #bfabcbff, #8d89a6ff);
+$gradient-bottom-left: linear-gradient(315deg, #eac8caff, #f2d5f8ff, #e6c0e9ff, #bfabcbff, #8d89a6ff);
+$gradient-radial: radial-gradient(#eac8caff, #f2d5f8ff, #e6c0e9ff, #bfabcbff, #8d89a6ff);
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
@@ -28,6 +73,11 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+}
+
+.addition {
+    display: flex;
+
 }
 
 section {
